@@ -6,6 +6,28 @@ Software engineering stuff I've read that you might be interested in.
 
 <hr/>
 
+## Learning HTTP/2
+
+https://www.oreilly.com/library/view/learning-http2/9781491962435/
+
+![Learning HTTP/2 Book Cover](img/learning-http-2.png)
+
+HTTP/2 is the now widely supported successor of HTTP/1.1. Built on top of the work done at Google for the SPDY protocol, HTTP/2 significantly alters the very simple request-response paradigm of HTTP/1.1, including adding server push, multiplexing over a single TCP connection, and alterations to how headers work including compression. 
+
+Learning HTTP/2 can be defined as a book in three acts. How did we get here and what were the problems and solutions along the way? How does HTTP/2 address those problems, what are its pros and cons, and what tools and techniques are available for working with it and debugging? And where do we see the future going? 
+
+At important points, the authors took a numbers driven approach to comparing HTTP/1.1 to HTTP/2, demonstrating that certain metrics like Time To First Byte don’t mean the same thing between the protocols, and that in certain scenarios HTTP/2 performs worse than HTTP/1.1. As an engineer and also just core to who I am, I really appreciate these honest observations. 
+
+At just 156 pages, the authors largely adhered to the writing philosophy “never use two words when one will do”. Pairing their concise yet conversational style with a “building from the bottom up” structuring of knowledge makes the book effective at getting information into the reader’s brain. 
+
+One critique would be that, for me, some of the chapters are a tad long. For a variety of reasons sitting down for an extended period to read and focus can be difficult. However, doing just that is important, as my brain prefers consuming a rounded out and complete concept in its entirety which it can later process in the background. Fortunately, only two chapters were on the longer side. 
+
+I like this book a lot and would definitely recommend it to someone who is looking to become familiar and effective with HTTP/2, or really anyone who works in the web space. It offers knowledge, tools, and techniques that are useful for front-end, back-end, and network engineers. 
+
+_October 24, 2022_
+
+<hr/>
+
 ## Getting Started with V Programming
 
 https://www.packtpub.com/product/getting-started-with-v-programming/9781839213434
