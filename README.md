@@ -4,6 +4,28 @@ Software engineering stuff I've read that you might be interested in.
 
 **Note:** I’m not affiliated with any of the authors/publishers/etc. in anyway, and the perspective I shared is my own, not necessarily my [employer's](https://www.linkedin.com/in/collinkruger/).
 
+## Building a Parser from Scratch
+
+https://www.packtpub.com/product/building-a-parser-from-scratch-video/9781801075107
+
+![Building a Parser from Scratch cover](img/building-a-parser-from-scratch.png)
+
+Over the years I’ve tried to learn how to write a compiler, but always ran out of time or motivation. The first phase of compiling is tokenizing and parsing syntax (code). A few weeks ago, I found myself needing to do this first phase. Parsing, if you don’t know what you’re doing, is painful, as anyone who has tried to implement a simple math expression evaluator without knowledge of parsing can attest.
+
+I decided to one once more take up the challenge of learning tokenization and parsing. This time, I chose to be taught, and decided to go through [Building a Parser from Scratch](https://www.packtpub.com/product/building-a-parser-from-scratch-video/9781801075107).
+
+The course consists of building a tokenizer/parser for a language that is kind of a merge of JavaScript and Python. It’s very pragmatic and approachable, but I am glad I have a little bit of experience in the space because some of the concepts were glossed over covered in a “Now I’m doing X” instead of “Because of Y, I am now doing X” way. It’s more follow along, and less being taught.
+
+However, the author might have taken the right approach because I can now say I can write recursive descent parsers. Thanks to the class I’ve been able to move forward with work, and also pick back up a personal project that requires this skill.
+
+If you’re interested in parsers, I threw together a parser for a subset of the Mermaid.JS language last night.
+
+See it at [examples/BuildingAParserFromScratch/MinimalMermaidParser.ipynb](examples/BuildingAParserFromScratch/MinimalMermaidParser.ipynb).
+
+By definition the parser takes a mermaid syntax and converts it into an abstract syntax tree (AST). Once in tree form this AST can be used by an interpreter, a compiler, a transpiler, etc. This process is useful for migrating old code, implementing expression evaluators for expressions defined by users at runtime, etc. If you’re interested in compilers, parsers, or would like to have a new tool in your toolbox, do check out this course.
+
+_October 31, 2022_
+
 <hr/>
 
 ## Learning HTTP/2
