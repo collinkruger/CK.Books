@@ -4,6 +4,28 @@ Software engineering stuff I've read that you might be interested in.
 
 **Note:** I’m not affiliated with any of the authors/publishers/etc. in anyway, and the perspective I shared is my own, not necessarily my [employer's](https://www.linkedin.com/in/collinkruger/).
 
+## Building an Interpreter from Scratch
+
+https://www.packtpub.com/product/building-an-interpreter-from-scratch-video/9781801071338
+
+![Building an Interpreter from Scratch cover](img/building-an-interpreter-from-scratch.png)
+
+**What I built!** : [CK-Flavored-S-Expression-Interpreter](examples/BuildingAnInterpreterFromScratch/CK-Flavored-S-Expression-Interpreter.ipynb)
+
+Keeping this review short and simple. [Building an Interpreter from Scratch](https://www.packtpub.com/product/building-an-interpreter-from-scratch-video/9781801071338) builds upon [Building a Parser from Scratch](#building-a-parser-from-scratch). The educational style of loosely explaining fundamental concepts, then jumping into narrating writing code holds over from the previous course.
+
+To get into interpreting quickly the author uses a parser generator to generate a parser for an S-Expression like grammer. If you’re interested in learning about parser generators, the author has a course [Parsing Algorithms](https://www.packtpub.com/product/parsing-algorithms-video/9781801074445) which covers that and related topics (Note: I have not taken that course, so cannot vouch for it at this time).
+
+The remainder of the course consisted of implementing progressively more complicated language constructs starting with global variables, then functions, up to classes and inheritance, and then modules.
+
+I originally thought I could watch the 3-hour course straight through and understand the concepts; however, 2 hours in and I found myself not retaining information. I decided to take a crack at building my own language without directly following along. This process of struggle was great for understanding the underlying concepts of what the author was writing and describing during the course.
+
+I would recommend this to someone who is interested in learning how to write their own language, or who wants to dig deeper into how programming languages are implemented. Though not required I would recommend being familiar with parsing. Specifically, the chapter list in [Parsing Algorithms](https://www.packtpub.com/product/parsing-algorithms-video/9781801074445) seems to have the information I feel that I was missing when going through this course.
+
+_November 17, 2022_
+
+<hr/>
+
 ## Building a Parser from Scratch
 
 https://www.packtpub.com/product/building-a-parser-from-scratch-video/9781801075107
